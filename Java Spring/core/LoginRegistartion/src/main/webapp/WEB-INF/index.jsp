@@ -27,28 +27,28 @@
 	            <td class="float-left">Username:</td>
 	            <td class="float-left">
 	            	<form:errors path="username" class="text-danger"/>
-					<form:input class="input" path="username"/>
+					<form:input type="username" class="input" path="username"/>
 	            </td>
 	        </tr>
 	        <tr>
 	            <td class="float-left">Email:</td>
 	            <td class="float-left">
 	            	<form:errors path="email" class="text-danger"/>
-					<form:input class="input" path="email"/>
+					<form:input type="email" class="input" path="email"/>
 	            </td>
 	        </tr>
 	        <tr>
 	            <td class="float-left">Password:</td>
 	            <td class="float-left">
 	            	<form:errors path="password" class="text-danger"/>
-					<form:input class="input" path="password"/>
+					<form:input type="password" class="input" path="password"/>
 	            </td>
 	        </tr>
 	        <tr>
 	            <td class="float-left">Confirm PW:</td>
 	            <td class="float-left">
 	            	<form:errors path="confirm" class="text-danger"/>
-					<form:input class="input" path="confirm"/>
+					<form:input type="confirm" class="input" path="confirm"/>
 	            </td>
 	        </tr>
 	        <tr>

@@ -1,7 +1,4 @@
 package com.codingdojo.LoginRegestarion.Controllers;
-import jakarta.servlet.http.HttpSession;
-import jakarta.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,6 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.codingdojo.LoginRegistration.models.LoginUser;
 import com.codingdojo.LoginRegistration.models.User;
 import com.codingdojo.LoginRegistration.services.UserService;
+
+import jakarta.servlet.http.HttpSession;
+import jakarta.validation.Valid;
 
 @Controller
 public class MainController {

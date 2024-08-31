@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
 
+import com.codingdojo.LoginRegestration.repositories.UserRepository;
 import com.codingdojo.LoginRegistration.models.LoginUser;
 import com.codingdojo.LoginRegistration.models.User;
-import com.codingdojo.LoginRegistration.repositories.UserRepository;
     
 @Service
 public class UserService {
